@@ -119,7 +119,7 @@ void LOG_MODE::delele_file()
         {
             fileNum++;
 
-            std::cout << "name: " << ptr->d_name << ", type: " << ptr->d_ino << "info: "
+            std::cout << "name: " << ptr->d_name << ", type: " << ptr->d_type << ", info: " << ptr->d_ino << ", name_len: " << ptr->d_namlen << ", seek off: " << ptr->d_seekoff << std::endl;
 
             if (first_file_name.empty())
             {
