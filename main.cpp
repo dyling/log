@@ -4,7 +4,7 @@
 
 int main()
 {
-    std::cout << "hello" << std::endl;
+    std::cout << "hello " << std::endl;
 
 
     DYL_LOG(D_EROR, "abc");
